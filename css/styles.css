@@ -1,0 +1,50 @@
+/****************************** TAG SELECTORS ******************************/
+body {
+  background-color: #e7e7de;
+  color: #00587a;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 4px;
+  border-top-color: #008891;
+  width: 60%;
+}
+
+h3 {
+  color: #0f3057;
+}
+
+h1 {
+  color: #0f3057;
+}
+
+/****************************** CLASS SELECTORS ******************************/
+.big_hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 7px;
+  border-top-color: #008891;
+  width: 70%;
+}
+
+/****************************** ID SELECTORS ******************************/
+#coverImage {
+  height: 491px;
+  width: 1163px;
+}
+
+#profileImage {
+  height: 310px;
+  width: 233px;
+  border-radius: 80%;
+}
+#profileImage:hover{
+  border-radius: 100%;
+}
+
+#footerImage{
+  height: 400px;
+  width: 800px;
+}
